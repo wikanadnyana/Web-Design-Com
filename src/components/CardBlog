@@ -1,0 +1,29 @@
+const CardBlog = () => {
+    return(
+        <div>
+            <div className="w-full lg:w-8960 mt-4 mx-auto rounded-tl-3xl rounded-br-3xl bg-white bg-opacity-40 shadow-sm transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 hover:shadow-lg">
+                    <div className="w-full h-44 mask-square rounded-tl-3xl rounded-br-3xl ring-white">
+                      <img src="https://placeimg.com/400/300/arch" alt="BlogImage" />
+                    </div>
+                    <div className="card-body text-center">
+                      <h2 className="text-2xl font-semibold text-black">Cara Menjaga Kesehatan Gigi</h2>
+                      <div className='mx-auto py-2'>
+                      <svg width="118" height="2" viewBox="0 0 118 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect width="118" height="2" fill="url(#paint0_linear_414_494)"/>
+                        <defs>
+                          <linearGradient id="paint0_linear_414_494" x1="116" y1="0" x2="0" y2="0" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#D3D3D3" stop-opacity="0"/>
+                            <stop offset="0.501157" stop-color="#D3D3D3"/>
+                            <stop offset="1" stop-color="#D3D3D3" stop-opacity="0"/>
+                          </linearGradient>
+                        </defs>
+                      </svg>
+                      </div>
+                      <p className=''>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Arcu cursus enim, bibendum sit faucibus praesent in cras.</p>
+                    </div>
+                  </div>
+        </div>
+    );
+};
+
+export default CardBlog;
